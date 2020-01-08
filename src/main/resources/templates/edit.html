@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit video</title>
+    <link href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<h4>Edit video</h4>
+<form th:action="@{'/edit/' + ${video.id}}" th:method="post" th:object="${video}">
+    <div class="form-group">
+        <label th:for="*{name}">Name</label>
+        <input type="text" th:field="*{name}">
+    </div>
+    <div class="form-group">
+        <label th:for="*{length}">Length</label>
+        <input type="text" th:field="*{length}">
+    </div>
+    <div class="form-group">
+        <label th:for="*{description}">Description</label>
+        <input type="text" th:field="*{description}">
+    </div>
+    <input type="submit">
+    <a href="#" th:href="@{/videolist}">Cancel</a>
+</form>
+
+</body>
+<script src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
