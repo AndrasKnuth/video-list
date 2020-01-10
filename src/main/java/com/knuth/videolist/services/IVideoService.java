@@ -7,7 +7,7 @@ import java.util.Set;
 
 public interface IVideoService {
     List<Video> findAll();
-    Set<Video> findAllOnPlaylist(long id);
+    Set<Video> findAllOnPlaylist();
     void addToPlayList(long id);
     Video findById(long id);
     void save(Video video);

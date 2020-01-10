@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Video list web app</title>
+    <link href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h3 class="navbar-brand">Playlist</h3>
 
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item active"><a class="nav-link" href="/addvideo">Add video</a></li>
+            <li class="nav-item active"><a class="nav-link" href="/videolist">Available videos</a></li>
+        </ul>
+    </div>
+</nav>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Length</th>
+        <th>Description</th>
+    </tr>
+    <tr th:each="video: ${playList}">
+        <td th:text="${video.getId()}"></td>
+        <td th:text="${video.getName()}"></td>
+        <td th:text="${video.getLength()}"></td>
+        <td th:text="${video.getDescription()}"></td>
+    </tr>
+</table>
+<script src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-</html>

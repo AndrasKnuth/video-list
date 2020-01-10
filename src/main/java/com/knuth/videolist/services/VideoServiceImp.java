@@ -28,10 +28,14 @@ public class VideoServiceImp implements IVideoService {
     }
 
     @Override
-    public Set<Video> findAllOnPlaylist(long id) {
+    public Set<Video> findAllOnPlaylist() {
         Set<Video> playList = new HashSet<>();
-        if(videoRepository.findById(id).get().isOnPlayList()){
-            playList.add(videoRepository.findById(id).get());
+        List<Video> videos = new ArrayList<>();
+        videoRepository.findAll().forEach(videos::add);
+        for (Video video : videos) {
+            if (video.isOnPlayList()) {
+                videoRepository.findAll().forEach(playList::add);
+            }
         }
         return playList;
     }

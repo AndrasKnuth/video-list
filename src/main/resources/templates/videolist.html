@@ -36,10 +36,16 @@
 </table>
 <h5>Add to playlist</h5>
 <div>
-    <select class="browser-default custom-select" th:each="video: ${videoList}">
-        <option th:each="video: ${video.setOnPlayList(true)}"></option>
-    </select>
-    <input type="submit">
+    <form method="post" th:action="@{/addtoplaylist}" >
+
+        <select th:field="*{videoList}">
+            <option th:each="o : ${videoList}"
+                    th:value="${o.getId()}"
+                    th:text="${o.getName()}"></option>
+        </select>
+
+        <button type="submit">Add</button>
+    </form>
 </div>
 
 <script src="/webjars/jquery/3.4.1/jquery.min.js"></script>

@@ -4,10 +4,10 @@ import com.knuth.videolist.models.Video;
 import com.knuth.videolist.services.VideoServiceImp;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Controller
 public class VideoController {
@@ -26,6 +26,32 @@ public class VideoController {
     public String videoList(Model model) {
         model.addAttribute("videoList", videoServiceImp.findAll());
         return "videolist";
+    }
+
+    /*@GetMapping("/addtoplaylist")
+    public String addItemForm(Model model) {
+        model.addAttribute("playList", new HashSet<Video>() {
+        });
+        model.addAttribute("videoList", videoServiceImp.findAll());
+        return "form";
+    }
+
+    @PostMapping("/addtoplaylist")
+    public String addItem(@ModelAttribute("playList") HashSet<Video> playList) {
+        playList.add() .getSeatingList().forEach(s -> System.out.println(s.getSeatNo()));
+        return "redirect:/addItem";
+    }*/
+
+    @GetMapping("/playlist")
+    public String playList(Model model) {
+        model.addAttribute("playList", videoServiceImp.findAllOnPlaylist());
+        return "playlist";
+    }
+
+    @PostMapping("/addtoplaylist")
+    public String addToPlaylist(Video video) {
+        videoServiceImp.addToPlayList(video.getId());
+        return "redirect:/playlist";
     }
 
     @GetMapping("/addvideo")
