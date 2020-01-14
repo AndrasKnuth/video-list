@@ -28,7 +28,8 @@ public class VideoController {
         return "videolist";
     }
 
-    /*@GetMapping("/addtoplaylist")
+    /*Adding elements from one list to another... - fixme
+    @GetMapping("/addtoplaylist")
     public String addItemForm(Model model) {
         model.addAttribute("playList", new HashSet<Video>() {
         });

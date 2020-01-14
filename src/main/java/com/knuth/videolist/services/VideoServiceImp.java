@@ -57,8 +57,10 @@ public class VideoServiceImp implements IVideoService {
 
     @Override
     public void delete(long id) {
-        //PopUpFrame popUpFrame = new PopUpFrame();
-        //popUpFrame.deleteVideo(videoRepository.findById(id).get().getName());
+        /* Popup for delete, showing which one was deleted - fixme
+        PopUpFrame popUpFrame = new PopUpFrame();
+        popUpFrame.deleteVideo(videoRepository.findById(id).get().getName());
+        */
         videoRepository.deleteById(id);
     }
 

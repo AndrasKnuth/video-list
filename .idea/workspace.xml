@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efb7861-3475-4d5f-beaf-92cc3e128ccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/videolist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/controllers/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/controllers/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/models/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/models/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/services/IVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/services/IVideoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/services/VideoServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/services/VideoServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/playlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/playlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/videolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/videolist.html" afterDir="false" />
     </list>
@@ -127,6 +125,9 @@
       <workItem from="1578497979926" duration="3958000" />
       <workItem from="1578559708917" duration="10079000" />
       <workItem from="1578658401213" duration="28000" />
+      <workItem from="1578921700431" duration="126000" />
+      <workItem from="1578995367330" duration="628000" />
+      <workItem from="1579025585505" duration="1388000" />
     </task>
     <servers />
   </component>
@@ -158,49 +159,49 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="417" y="147" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1578316915082" />
-    <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1578501196377">
+    <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1578921838093">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1578501196377" />
-    <state width="1323" height="247" key="GridCell.Tab.0.bottom" timestamp="1578579189032">
+    <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1578921838093" />
+    <state width="1323" height="247" key="GridCell.Tab.0.bottom" timestamp="1579026986918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1578579189032" />
-    <state width="1323" height="247" key="GridCell.Tab.0.center" timestamp="1578579189032">
+    <state width="1323" height="247" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579026986918" />
+    <state width="1323" height="247" key="GridCell.Tab.0.center" timestamp="1579026986917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1578579189032" />
-    <state width="1323" height="247" key="GridCell.Tab.0.left" timestamp="1578579189032">
+    <state width="1323" height="247" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1579026986917" />
+    <state width="1323" height="247" key="GridCell.Tab.0.left" timestamp="1579026986917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1578579189032" />
-    <state width="1323" height="247" key="GridCell.Tab.0.right" timestamp="1578579189032">
+    <state width="1323" height="247" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1579026986917" />
+    <state width="1323" height="247" key="GridCell.Tab.0.right" timestamp="1579026986917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1578579189032" />
-    <state width="1323" height="247" key="GridCell.Tab.1.bottom" timestamp="1578579189033">
+    <state width="1323" height="247" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579026986917" />
+    <state width="1323" height="247" key="GridCell.Tab.1.bottom" timestamp="1579026986918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1578579189033" />
-    <state width="1323" height="247" key="GridCell.Tab.1.center" timestamp="1578579189032">
+    <state width="1323" height="247" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1579026986918" />
+    <state width="1323" height="247" key="GridCell.Tab.1.center" timestamp="1579026986918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1578579189032" />
-    <state width="1323" height="247" key="GridCell.Tab.1.left" timestamp="1578579189032">
+    <state width="1323" height="247" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1579026986918" />
+    <state width="1323" height="247" key="GridCell.Tab.1.left" timestamp="1579026986918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1578579189032" />
-    <state width="1323" height="247" key="GridCell.Tab.1.right" timestamp="1578579189033">
+    <state width="1323" height="247" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1579026986918" />
+    <state width="1323" height="247" key="GridCell.Tab.1.right" timestamp="1579026986918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="247" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1578579189033" />
+    <state width="1323" height="247" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1579026986918" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1578070733950">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1578070733950" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1578497979966">
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1579025595333">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1578497979966" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1579025595333" />
   </component>
 </project>
