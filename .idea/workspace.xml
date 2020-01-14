@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efb7861-3475-4d5f-beaf-92cc3e128ccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/videolist.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/controllers/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/controllers/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/services/VideoServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/knuth/videolist/services/VideoServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/playlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/playlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/videolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/videolist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,6 +134,8 @@
       <workItem from="1578921700431" duration="126000" />
       <workItem from="1578995367330" duration="628000" />
       <workItem from="1579025585505" duration="1388000" />
+      <workItem from="1579027975582" duration="481000" />
+      <workItem from="1579029319805" duration="479000" />
     </task>
     <servers />
   </component>
@@ -143,10 +151,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="43" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1578070656308" />
-    <state x="108" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578563225506">
+    <state x="108" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579028463652">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="108" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1578563225506" />
+    <state x="108" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1579028463652" />
     <state x="488" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1578499447144">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -155,10 +163,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1578064806533" />
-    <state x="417" y="147" key="EnvironmentVariablesDialog" timestamp="1578316915082">
+    <state x="417" y="147" key="EnvironmentVariablesDialog" timestamp="1579028462156">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="417" y="147" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1578316915082" />
+    <state x="417" y="147" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1579028462156" />
     <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1578921838093">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -199,9 +207,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1578070733950" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1579025595333">
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1579029324861">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1579025595333" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1579029324861" />
   </component>
 </project>
